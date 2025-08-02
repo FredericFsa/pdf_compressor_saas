@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![Flask](https://img.shields.io/badge/flask-2.3-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Dockerized](https://img.shields.io/badge/docker-ready-blue)
+
+
 # PDF Compressor SaaS
 
 Une application SaaS simple pour compresser des fichiers PDF trop volumineux à l’aide de Ghostscript.
