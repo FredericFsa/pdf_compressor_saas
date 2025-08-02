@@ -1,0 +1,21 @@
+✅ 1. Créer un environnement virtuel
+Dans ton dossier de projet :
+
+python -m venv venv
+Cela crée un dossier venv/ contenant un environnement Python isolé.
+
+✅ 2. Activer l’environnement virtuel
+🔵 Windows (cmd) :
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+pip freeze > requirements.txt
+
+
+✅ 3. Désactiver le venv
+Quand tu as terminé :
+
+
+deactivate
