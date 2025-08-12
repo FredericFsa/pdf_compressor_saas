@@ -6,6 +6,7 @@ import tempfile
 from flask import request, render_template, send_file, flash, redirect, url_for, after_this_request
 from app import app
 
+
 UPLOAD_FOLDER = tempfile.gettempdir()
 
 @app.route('/', methods=['GET', 'POST'])
@@ -58,3 +59,8 @@ def index():
             flash("Erreur de compression du PDF.", "error")
 
     return render_template('index.html')
+
+
+@app.get("/health")
+def health():
+    return {"ok": True}, 200
